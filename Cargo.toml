@@ -32,7 +32,7 @@ futures-0-1 = { version = "0.1", optional = true, package = "futures" }
 futures-0-3 = { version = "0.3", optional = true, package = "futures" }
 itertools = "0.7.8"
 log = "0.4"
-oauth2 = { version = "=3.0.0-alpha.9", default-features = false }
+oauth2 = { git = "https://github.com/kaj/oauth2-rs", branch="http-versions", default-features = false }
 rand = "0.6"
 ring = "0.14"
 serde = "1.0"
